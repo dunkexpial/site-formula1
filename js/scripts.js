@@ -41,7 +41,7 @@ $(document).ready(function() {
         var target = $($(this).attr("href"));
         if (target.length) {
             var position = target.offset().top;
-            var headerHeight = window.innerHeight * 0.14;
+            var headerHeight = window.innerHeight * 0.095;
             $("html, body").animate({
                 scrollTop: position - headerHeight
             }, 600);
