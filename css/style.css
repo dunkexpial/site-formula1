@@ -690,4 +690,7 @@ h1:after, h2:after, h3:after {
     .podium-spot:hover {
         transform: scale(1.1);
     }
+    * {
+        font-size: 1.2em;
+    }
 }
