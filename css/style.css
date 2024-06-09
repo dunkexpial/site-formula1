@@ -61,24 +61,30 @@ body {
     font-size: 0.9vw;
     font-family: Formula1Regular;
 }
+
 #header #logo{
     width: 8vw;
     transition: 250ms;
 }
+
 #header #logo:hover {
     transform: scale(120%);
 }
+
 #header #logo:active {
     transform: scale(90%);
 }
+
 #header #menu ul {
     display: flex;
 }
+
 #header .container {
     display: flex;
     justify-content:space-between;
     align-items: center;
 }
+
 #header #menu a {
     color: var(--color-secondary);
     display: block;
@@ -88,14 +94,17 @@ body {
     color: #fff;
     border-radius: 0.3vw;
 }
+
 #header #menu a:hover {
     background-color: var(--color-tertiary);
     color: #fff;
     font-weight: 600;
 }
+
 #header #menu li {
     list-style: none;
 }
+
 #header #menu li .submenu {
     display: none;
     position: absolute;
@@ -114,43 +123,53 @@ body {
     border-width: 0.3vw;
     text-align: center;
 }
+
 #header #menu li:hover .submenu {
     display: grid;
 }
+
 #header #menu li .submenu img {
     width: 13vw;
     transition: 0.2s;
 }
+
 #header #menu li .submenu li:hover img {
     transform: scale(1.2);
 }
+
 #header #menu li .submenu li {
     width: 16vw;
 }
+
 #header #menu li:hover .submenu {
     display: grid;
     border-radius: 0.5vw;
 }
+
 .arrow {
     width: 1vw;
     vertical-align: auto;
     margin-left: 0.7vw;
 }
 
+
 /* Main Content */
 .mainpage, .container {
     width: 70%;
     margin: auto;
 }
+
 .mainpage {
     display: flex;
     justify-content: center;
 }
+
 .content .cmainpage {
     flex: 1;
     max-width: 70%;
     margin: 1vw;
 }
+
 .tmainpage {
     width: 70%;
     display: flex;
@@ -162,6 +181,7 @@ body {
     border-top: var(--color-primary) solid 0.3vw;
     border-bottom: var(--color-tertiary) solid 0.3vw;
 }
+
 .t2mainpage {
     flex: 1;
     display: flex;
@@ -169,6 +189,7 @@ body {
     align-items: center;
     justify-content: center;
 }
+
 .tdrivers{
     color: #fff;
     text-align: center;
@@ -179,10 +200,12 @@ body {
     font-family: Formula1Bold;
     margin: 1vw 0vw;
 }
+
 .tdrivers img {
     width: 17vw;
     margin-left: -3vw;
 }
+
 .tdriver .dnumber {
     margin-right: 1vw;
     font-size: 3.5vw;
@@ -190,6 +213,7 @@ body {
     vertical-align: top;
     font-family: Formula1Number;
 }
+
 .tdrivers .tdriver {
     background-color: var(--color-quartenary);
     padding: 3vw;
@@ -198,12 +222,14 @@ body {
     border-top: 0.3vw solid var(--color-primary);
     border-right: 0.3vw solid var(--color-primary);
 }
+
 .textteam img {
     width: 22vw;
     float: right;
     margin: 1vw 0vw 2vw 2vw;
     border-radius: 1vw;
 }
+
 .textteam p {
     padding: 1vw;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -212,11 +238,13 @@ body {
     text-align: justify;
     font-size: 1vw;
 }
+
 .t2mainpage img {
     width: 15vw;
     border-radius: 100%;
     margin: 1vw 2vw 3vw;
 }
+
 .tmainpage table {
     color: #fff;
     text-align: left;
@@ -226,11 +254,13 @@ body {
     white-space: nowrap;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
 .tmainpage table td {
     text-align: right;
     font-weight: 400;
     padding: 0.35vw;
 }
+
 .t2mainpage h6 {
     color: #fff;
     font-family: Formula1Bold;
@@ -238,12 +268,14 @@ body {
     padding-bottom: 2vw;
     font-size: 1.7vw;
 }
-.content .container h1, .content .container h2, .content .container h3 {
+
+.content .container h1, .content .container h2, .content .container h3, .ch2 {
     color: #fff;
     font-family: Formula1Bold;
     padding: 1vw 0;
     font-size: 1.7vw;
 }
+
 h4, h5, h3 {
     color: #fff;
     font-family: Formula1Bold;
@@ -251,20 +283,24 @@ h4, h5, h3 {
     padding: 1vw;
     font-size: 1.7vw;
 }
+
 h4 {
     font-size: 1.7vw;
     padding-top: 1vw;
 }
+
 h5 {
     font-size: 2.5vw;
     padding: 1vw;
 }
+
 .htitle {
     color: #fff;
     font-family: Formula1Bold;
     margin: 3vw 0vw 1vw 0vw;
     font-size: 1.3vw;
 }
+
 .model h6 {
     color: #fff;
     font-family: Formula1Bold;
@@ -272,12 +308,14 @@ h5 {
     padding: 1.0vw 0vw 1.0vw 0vw;
     font-size: 2.5vw;
 }
+
 h1:after, h2:after, h3:after {
     content: ' ';
     display: block;
     border: 0.15vw solid var(--color-primary);
     margin-top: 1vw;
 }
+
 .content .container .text {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: #fff;
@@ -285,16 +323,20 @@ h1:after, h2:after, h3:after {
     text-align: justify;
     font-size: 1vw;
 }
+
 .banners img {
     width: 100%;
     border-radius: 1vw;
 }
+
 .slide {
     display: none;
 }
+
 .slide.ativo {
     display: block;
 }
+
 .background {
     margin: 4vw 0vw 1vw auto;
     padding: 0vw 1vw 0.01vw 1vw;
@@ -311,18 +353,23 @@ h1:after, h2:after, h3:after {
     display: flex;
     flex-wrap: wrap;
 }
+
 .drivers {
     padding-bottom: 4vw;
 }
+
 .drivers .collapsible-container, .drivers2 .collapsible-container {
     margin: 1.5vw 0.75vw;
 }
+
 .drivers .collapsible-container {
     flex: 1 1 20%;
 }
+
 .drivers2 .collapsible-container {
     flex: 1 1 40%;
 }
+
 .collapsible {
     display: flex;
     flex-direction: column;
@@ -343,6 +390,7 @@ h1:after, h2:after, h3:after {
     border-right: 0.25vw solid var(--color-primary);
     border-top-right-radius: 1vw;
 }
+
 .collapsible:after {
     content: '\0002B'; /* Unicode character for "plus" sign (+) */
     font-size: 1.5vw;
@@ -350,9 +398,11 @@ h1:after, h2:after, h3:after {
     float: right;
     margin-top: 0.5vw;
 }
+
 .active:after {
     content: "\2212"; /* Unicode character for "minus" sign (-) */
-  }
+}
+
 .collapsible img {
     height: 13vw;
     margin-bottom: 1vw;
@@ -363,11 +413,13 @@ h1:after, h2:after, h3:after {
     position: relative;
     left: 1vw;
 }
+
 .collapsible:hover img {
     -moz-transform: scale(1.1);
     -webkit-transform: scale(1.1);
     transform: scale(1.1);
 }
+
 .collapsible .dnumber {
     padding: 0vw;
     margin: 0vw 0vw -2.5vw 0vw;
@@ -377,9 +429,11 @@ h1:after, h2:after, h3:after {
     font-size: 2.5vw;
     font-family: Formula1Number;
 }
+
 .active, .collapsible:hover, .teambutton:hover {
     background-color: var(--color-quintennial);
 }
+
 .colcontent {
     padding: 0 1vw;
     background-color: var(--color-quintennial);
@@ -391,6 +445,7 @@ h1:after, h2:after, h3:after {
     border-bottom-left-radius: 1vw;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
 .colcontent .about {
     font-family: Formula1Bold;
     text-align: center;
@@ -398,6 +453,7 @@ h1:after, h2:after, h3:after {
     border-radius: 1vw 1vw 0px 0px;
     margin-bottom: 0px;
 }
+
 .colcontent table {
     padding: 3% 5%;
     text-align: left;
@@ -407,10 +463,12 @@ h1:after, h2:after, h3:after {
     border-radius: 1vw;
     background-color: var(--color-secondary);
 }
+
 .colcontent table td {
     text-align: right;
     font-weight: 400;
 }
+
 .colcontent p {
     text-align: justify;
     padding: 0 5% 1vw;
@@ -426,6 +484,7 @@ h1:after, h2:after, h3:after {
     border-radius: 1vw;
     margin-bottom: 2vw;
 }
+
 .model {
     height: 60%;
     display: block;
@@ -436,6 +495,7 @@ h1:after, h2:after, h3:after {
     border-top: var(--color-primary) solid 0.3vw;
     border-bottom: var(--color-tertiary) solid 0.3vw;
 }
+
 .teambanner img {
     width: 100%;
     height: 32vw;
@@ -450,12 +510,15 @@ h1:after, h2:after, h3:after {
     display: flex;
     flex-wrap: wrap;
 }
+
 .team-container {
     flex: 1 1 20%;
 }
+
 .team-container a{
     text-decoration: none;
 }
+
 .teambutton {
     display: flex;
     flex-direction: column;
@@ -479,6 +542,7 @@ h1:after, h2:after, h3:after {
     border-bottom-left-radius: 1vw;
     margin: 2vw 0.5vw 0.5vw 0.5vw;
 }
+
 .teambutton img {
     height: 10vw;
     margin-bottom: 0.5vw;
@@ -488,11 +552,13 @@ h1:after, h2:after, h3:after {
     transition: all 0.3s;
     border-radius: 1vw;
 }
+
 .teambutton:hover img {
     -moz-transform: scale(1.1);
     -webkit-transform: scale(1.1);
     transform: scale(1.1);
 }
+
 .decada {
     background-color: var(--color-quartenary);
     padding: 0vw 2vw 2vw 2vw;
@@ -501,6 +567,7 @@ h1:after, h2:after, h3:after {
     border-top: var(--color-primary) solid 0.3vw;
     border-bottom: var(--color-tertiary) solid 0.3vw;
 }
+
 .decada img {
     float: right;
     width: 33%;
@@ -508,6 +575,7 @@ h1:after, h2:after, h3:after {
     margin-top: 3vw;
     border-radius: 0.5vw;
 }
+
 #accrapido a{
     color: #fff;
     font-size: 1.3vw;
@@ -516,10 +584,11 @@ h1:after, h2:after, h3:after {
     transition: 0.2s;
     border-radius: 0.5vw;
 }
+
 #accrapido a:hover {
-    background-color: var(--color-quintennial);
-    font-weight: 800;
+    font-weight: 1000;
 }
+
 #accrapido {
     position: sticky;
     display: flex;
@@ -530,16 +599,21 @@ h1:after, h2:after, h3:after {
     background-color: var(--color-quartenary);
     border-bottom: var(--color-primary) solid 0.2vw;
 }
+
 .rules {
     justify-content: center;
+    margin-top: 2vw;
 }
+
 .rules ul {
     margin: 0 auto;
     width: 90%;
 }
+
 .rules li {
     margin: 1vw 1vw 1vw 1vw;
 }
+
 .rules table {
     background-color: var(--color-quintennial);
     color: #fff;
@@ -549,6 +623,7 @@ h1:after, h2:after, h3:after {
     padding: 1vw;
     border-radius: 1vw;
 }
+
 .rules table th, .rules table td, .rules table tr {
     padding: 0.5vw;
     text-align: center;
@@ -556,11 +631,45 @@ h1:after, h2:after, h3:after {
     border-radius: 0.3vw;
     background-color: var(--color-secondary);
 }
+
 .rules table th {
     background-color: var(--color-quartenary);
     border-radius: 0.3vw;
     border: var(--color-quartenary) solid 0.1vw;
     font-size: 1.2vw;
+}
+
+.circuit {
+    margin-top: 2vw;
+}
+
+.circuit .ctitle {
+    justify-content: space-between;
+    display: flex;
+}
+
+.circuit .ctitle img{
+    height: 2vw;
+    width: 3vw;
+    margin: auto 2vw auto 0;
+}
+
+.circuit .cimage {
+    width: 28vw;
+    margin-bottom: 1vw;
+    height: auto;
+    display: block; 
+    border-radius: 1vw;
+}
+
+.circuit:nth-of-type(odd) .cimage {
+    float: left;
+    margin-right: 1vw;
+}
+
+.circuit:nth-of-type(even) .cimage {
+    float: right;
+    margin-left: 1vw;
 }
 
 /* Botões */
@@ -569,6 +678,7 @@ h1:after, h2:after, h3:after {
     align-items: center;
     justify-content: center;
 }
+
 .button {
     background-color: var(--color-quartenary);
     padding: 1vw;
@@ -582,9 +692,11 @@ h1:after, h2:after, h3:after {
     transition: transform 0.2s;
     font-family: Formula1Regular;
 }
+
 .button:hover {
     transform: scale(1.05);
 }
+
 .button:active {
     transform: scale(0.95);
 }
@@ -596,6 +708,7 @@ h1:after, h2:after, h3:after {
     justify-content: center;
     padding: 3vw 0;
 }
+
 .podium-spot {
     width: 17%;
     text-align: center;
@@ -613,20 +726,24 @@ h1:after, h2:after, h3:after {
     border-top: var(--color-tertiary) solid 0.3vw;
     border-bottom: var(--color-primary) solid 0.3vw;
 }
+
 .podium-spot:hover {
     background: linear-gradient(0deg, #771511, #1b1b1b);
     transform: scale(1.15);
 }
+
 .podium-spot img {
     width: 100%;
     border-radius: 50%;
     border: 0.2vw solid var(--color-quartenary);
 }
+
 .podium-spot p {
     margin: 0.5vw 0px;
     font-size: 1.5vw;
     font-weight: bold;
 }
+
 .podium-spot .dinfo {
     display: flex;
     flex-direction: column;
@@ -647,12 +764,14 @@ h1:after, h2:after, h3:after {
     text-align: center;
     vertical-align: middle;
 }
+
 #footer ul {
     font-family: Formula1Bold;
     font-size: 1.2vw;
     list-style: none;
     margin: 0 8vw;
 }
+
 #footer a, #footer li {
     text-decoration: none;
     color: #fff;
@@ -663,13 +782,16 @@ h1:after, h2:after, h3:after {
 #footer a:hover {
     font-weight: 700;
 }
+
 #footer li {
     margin-top: 0.8vw;
 }
+
 #footer img {
     height: 1vw;
     margin-right: 0.5vw;
 }
+
 .copyright {
     margin: 0 auto;
     padding: 0.2vw;
@@ -689,5 +811,12 @@ h1:after, h2:after, h3:after {
     }
     .podium-spot:hover {
         transform: scale(1.1);
+    }
+    .circuit .cimage {
+        width: 24vw;
+        margin-bottom: 1vw;
+        height: auto;
+        display: block; 
+        border-radius: 1vw;
     }
 }

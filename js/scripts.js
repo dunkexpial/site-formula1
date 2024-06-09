@@ -32,10 +32,6 @@ $(document).ready(function() {
         setInterval(showNextSlide, duration);
     }
 
-    if ($('.magnific-popup').length) {
-        $('.magnific-popup').magnificPopup({type:'image'});
-    }
-
     $("a[href^='#']").click(function(e) {
         e.preventDefault();
         var target = $($(this).attr("href"));
